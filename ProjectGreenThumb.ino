@@ -51,8 +51,7 @@ void loop() {
     count++;
 
     
-    if(count==3 )
-    //if(count*10==secondsInADay) //takes roughly 10 seconds for a cycle scan- times the number of them
+    if(count*10==secondsInADay) //takes roughly 10 seconds for a cycle scan- times the number of them
     {
        count=0;
        digitalWrite(pumpSwitch, HIGH);
